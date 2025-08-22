@@ -30,13 +30,13 @@ Simple command-line tool to dump **all text content** (numbers, strings, formula
 
 ### 1. Clone
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/xls2text.git
+git clone https://github.com/Frankicy/xls2text.git
 cd xls2text
-
+```
 Build:
 
   Linux/macOS
-
+```bash
 # Install build deps (example for Ubuntu)
 sudo apt update
 sudo apt install build-essential cmake libxls-dev
@@ -44,6 +44,8 @@ sudo apt install build-essential cmake libxls-dev
 # Configure & compile
 cmake -B build
 cmake --build build
-
+```
   Run
+```bash
 ./build/xls2text input.xls output.txt
+```
