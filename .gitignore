@@ -1,0 +1,17 @@
+# Build
+build/
+*.o
+*.a
+*.so
+xls2text
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 测试数据（如不需要可删掉）
+*.xls
+*.xlsx
+output.txt
